@@ -1,0 +1,733 @@
+@media screen and (max-width: 1199px) {
+  /*default css started*/
+  body {
+    line-height: 24px;
+    font-size: 14px;
+  }
+  .container {
+    max-width: 768px;
+  }
+
+  h1 {
+    font-size: 30px;
+  }
+  h3 {
+    font-size: 21px;
+  }
+  h4 {
+    font-size: 17px;
+  }
+  h5 {
+    font-size: 13px;
+  }
+  p {
+    font-size: 13px;
+    margin: 0;
+  }
+  .primary {
+    padding: 12px 16px 14px 16px;
+    font-size: 13px;
+  }
+  .secondary {
+    padding: 12px 16px 14px 16px;
+    font-size: 13px;
+  }
+  .footer_container,
+  .logosection_container,
+  .story_container,
+  .people_container,
+  .sectors_container,
+  .introduction_container,
+  .landingpage_container,
+  .navbar_container {
+    max-width: 720px;
+    margin: auto;
+  }
+  /*default css ended*/
+
+  /*header started*/
+  .menu_display_listitem {
+    display: block;
+  }
+  .visibility {
+    opacity: 0;
+  }
+  .nav_items ul {
+    flex-direction: column;
+  }
+  .nav_items {
+    flex-direction: column;
+    padding-top: 50px;
+  }
+  .line {
+    width: 22px;
+    height: 2px;
+    margin: 3px;
+    background-color: #8b3c50;
+    transition: transform 0.3s ease-out;
+  }
+  .logo {
+    display: block;
+  }
+  .list {
+    margin-top: 30px;
+  }
+  .list_items {
+    position: absolute;
+    top: 60px;
+    left: 0;
+  }
+.border::before{
+  top: 0;
+  position: fixed;
+  z-index: 3;
+}
+  .navbar_container {
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #fff;
+  }
+  .header_logo {
+    width: 215px;
+    position: absolute;
+    top: 26px;
+    padding-top: 0;
+  }
+  .nav_height {
+    height: 70px;
+    transition: all 0.5s ease-out;
+  }
+  .header_button {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 170px;
+    padding: 14px 310px;
+  }
+  .navbar {
+    position: relative;
+    justify-content: unset;
+    position: sticky;
+    top: 0;
+    height: 80px;
+  }
+  .nav_login {
+    visibility: visible;
+    position: absolute;
+    top: 28px;
+    right: 10px;
+    height: 25px;
+    width: 25px;
+  }
+  .nav_login:hover {
+    cursor: pointer;
+  }
+  .border::before {
+    height: 4px;
+  }
+  .search {
+    margin-right: 0;
+    position: absolute;
+    top: 26px;
+    right: 40px;
+  }
+  .menubar_icons {
+    display: flex;
+    margin-top: 0;
+    position: absolute;
+    left: 0;
+    top: 410px;
+  }
+  /*header ended*/
+
+  /*section1 started*/
+  .main_container {
+    margin-top: 70px;
+  }
+
+  .landingpage_container {
+    margin-bottom: 60px;
+  }
+  .landingpage {
+    height: 301px;
+  }
+  .landingpageimage {
+    width: 447px;
+    height: 301px;
+  }
+  .landingpage_arrow {
+    position: absolute;
+    right: 8px;
+    top: 110px;
+  }
+  .landingpage_text {
+    top: 10px;
+    bottom: 10px;
+    right: 340px;
+  }
+  .landingpage_heading {
+    margin: 25px 0 0 40px;
+  }
+  .landingpage_subheading {
+    margin-top: 20px;
+    margin-left: 40px;
+    margin-bottom: 20px;
+    line-height: 24px;
+    font-size: 17px;
+  }
+  .landingpage_button {
+    margin: 0 0 58px 40px;
+  }
+  .no_use {
+    height: 8px;
+  }
+  /*section1 ended*/
+
+  /*section2 started*/
+  .introduction_container {
+    margin-bottom: 60px;
+  }
+  .introduction {
+    height: 353px;
+  }
+  .background_introduction {
+    bottom: 49px;
+  }
+  .introduction_heading {
+    padding-top: 60px;
+    margin-top: 0;
+  }
+  .introduction_text {
+    font-size: 17px;
+    margin: 0 62px 30px 62px;
+  }
+  .introduction_overrideicon {
+    top: 233px;
+    right: 8px;
+  }
+  .introduction_overrideimage {
+    height: 120px;
+    width: 284px;
+  }
+  .introduction_button {
+    margin: 0 308px 50px;
+  }
+  /*section2 ended*/
+
+  /*section3 started*/
+
+  .sectors {
+    height: 210px;
+    margin-bottom: 80px;
+  }
+  .circles {
+    margin: 40px 0 0 0;
+  }
+  .circle {
+    height: 140px;
+  }
+  .circle_wrappertext {
+    width: 140px;
+  }
+  /*section3 ended*/
+
+  /*section4 and 5 started*/
+  .people_container {
+    margin-bottom: 22px;
+  }
+  .people {
+    height: 301px;
+    width: 720px;
+    max-width: 720px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .people_image {
+    width: 447px;
+    bottom: 0;
+    height: 301px;
+  }
+  .people_box {
+    top: 10px;
+    bottom: 10px;
+    left: 340px;
+  }
+  .peopleand5_heading {
+    margin: 40px 0 0 40px;
+    font-size: 30px;
+  }
+  .peopleand5_text {
+    margin: 20px 40px 20px 40px;
+    font-size: 14px;
+  }
+  .people_button {
+    margin: 0 20px 45px 40px;
+  }
+  .story_container {
+    margin-bottom: 90px;
+  }
+  .story {
+    height: 301px;
+  }
+  .story_image {
+    width: 447px;
+    height: 301px;
+  }
+  .story_box {
+    top: 10px;
+    bottom: 10px;
+    right: 340px;
+  }
+  .story_button {
+    margin: 0 25px 30px 40px;
+  }
+  /*section 4 and 5 ended*/
+
+  /*section6 started*/
+  .gridsection {
+    margin-bottom: 60px;
+    height: 640px;
+  }
+  .gridsection_heading {
+    margin-left: 61px;
+  }
+  .gridsection_text {
+    margin: 0 61px;
+  }
+  .gridsection_link {
+    font-size: 13px;
+  }
+  .gridsection_grid {
+    margin-top: 42px;
+  }
+  /*section6 ended*/
+
+  /*section7 started*/
+  .logosection_container {
+    margin-bottom: 60px;
+  }
+  .logosection_logo {
+    margin-top: 30px;
+  }
+  .logo1 {
+    margin-right: 103px;
+    width: 200px;
+    margin-left: 61px;
+  }
+  .logo2 {
+    margin-right: 102px;
+    width: 111px;
+  }
+  .logo3 {
+    width: 80px;
+    margin-right: 61px;
+  }
+  /*section7 ended*/
+
+  /*section8 started*/
+  .assistance_container {
+    max-width: 768px;
+    margin: auto;
+  }
+  .assistance {
+    height: 365px;
+    margin-bottom: 40px;
+  }
+  .assistance_box1 {
+    top: 86px;
+  }
+  .assistance_box1layout {
+    margin: 115px 180px 40px 106px;
+    padding-left: 39px;
+  }
+  .assistance_text1 {
+    font-size: 24px;
+  }
+  .assistance_box2 {
+    left: 85px;
+    right: 85px;
+    bottom: 202px;
+  }
+  .assistance_box2layout {
+    margin: 24px 82px 21px 21px;
+    padding-left: 39px;
+  }
+  .assistance_text2 {
+    font-size: 21px;
+  }
+  .assistance_logo {
+    top: 105px;
+    right: -19px;
+  }
+  .assistance_logoimage {
+    height: 99px;
+    width: 236px;
+  }
+  .assistance_button2 {
+    margin: 20px 325px 21px 0;
+  }
+  /*section 8 ended*/
+
+  /*footer started*/
+  .footer_logo {
+    margin-top: 50px;
+    width: 255px;
+  }
+  .icons {
+    margin-top: 50px;
+  }
+  .footer {
+    height: 386px;
+  }
+  .footer2 {
+    margin-top: 36px;
+    margin-bottom: 30px;
+    height: 150px;
+  }
+  .footer-list {
+    padding-right: 30px;
+  }
+  .footer_right {
+    left: 0;
+    top: 61px;
+    width: 386px;
+    text-align: justify;
+  }
+  .footer2_belowlist {
+    position: absolute;
+    top: 130px;
+  }
+  /*footer ended*/
+}
+
+/*responsivness for tablets*/
+@media screen and (max-width: 767px) {
+  /*default css*/
+  .assistance_container,
+  .story_container,
+  .people_container,
+  .sectors_container,
+  .landingpage_container,
+  .navbar_container {
+    max-width: 375px;
+    margin: auto;
+  }
+  /*header css*/
+  .nav_items {
+    padding-top: 80px;
+  }
+  .list {
+    margin-top: 20px;
+  }
+  .container {
+    max-width: 375px;
+  }
+  .header_button {
+    top: 140px;
+    padding: 14px 90px;
+  }
+  /*section1 css*/
+  .landingpage_container {
+    margin-bottom: 30px;
+  }
+  .landingpage {
+    height: 276px;
+    width: 100%;
+    margin-bottom: 200px;
+  }
+
+  .landingpageimage {
+    left: 48px;
+    top: 0;
+    bottom: 0;
+  }
+  .landingpage_arrow {
+    position: absolute;
+    right: 6px;
+    top: 110px;
+  }
+  .landingpage_text {
+    top: 188px;
+    left: 20px;
+    right: 20px;
+    bottom: -210px;
+    overflow: hidden;
+  }
+  .landingpage_heading {
+    margin: 30px 0 0 22px;
+  }
+  .landingpage_subheading {
+    width: 295px;
+    margin: 20px 0 20px 20px;
+  }
+  .landingpage_button {
+    margin: 0 12px 30px 20px;
+  }
+  .discs {
+    position: relative;
+    bottom: -5px;
+  }
+  .no_use {
+    height: 8px;
+  }
+
+  /*section2 css*/
+  .introduction_container {
+    max-width: 335px;
+    margin: auto;
+    margin-bottom: 60px;
+  }
+  .introduction {
+    height: 490px;
+    width: 100%;
+  }
+  .background_introduction {
+    bottom: 54px;
+  }
+  .introduction_heading {
+    padding-top: 40px;
+    margin-top: 0;
+  }
+  .introduction_text {
+    margin: 0 30px 20px 30px;
+    line-height: 24px;
+  }
+  .introduction_overrideicon {
+    top: 365px;
+    right: 18px;
+  }
+  .introduction_overrideimage {
+    height: 124px;
+    width: 296px;
+  }
+  .introduction_button {
+    margin: 0 90px 50px;
+  }
+
+  /*section3 started*/
+
+  .sectors {
+    height: 292px;
+    margin-bottom: 30px;
+    width: 100%;
+  }
+  .arrow {
+    margin-top: 30px;
+  }
+  .arrow_image {
+    display: flex;
+  }
+
+  /*section 4 and 5 css*/
+  .people_container {
+    margin-bottom: 240px;
+  }
+  .story,
+  .people {
+    height: 276px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+  .story_container {
+    margin-bottom: 273px;
+  }
+  .people_background {
+    bottom: 208px;
+  }
+  .people_image {
+    bottom: 208px;
+    left: 48px;
+    top: 0;
+  }
+  .people_box {
+    top: 188px;
+    left: 20px;
+    right: 20px;
+    bottom: -210px;
+  }
+  .peopleand5_heading {
+    margin: 30px 0 0 22px;
+  }
+  .story_background {
+    left: 20px;
+  }
+  .story_image {
+    left: 48px;
+  }
+  .peopleand5_text {
+    margin: 20px;
+  }
+  .people_button {
+    margin: 0 15px 30px 20px;
+  }
+  .story_box {
+    top: 188px;
+    bottom: -210px;
+    left: 20px;
+    right: 20px;
+  }
+  .story_button {
+    margin: 0 15px 30px 20px;
+  }
+
+  /*section6 css*/
+  .gridsection {
+    height: 740px;
+  }
+  .gridsection_text {
+    display: block;
+  }
+  .gridsection_TextAndLink {
+    margin-bottom: 20px;
+  }
+
+  .gridsection_heading {
+    margin-left: 30px;
+  }
+  .gridsection_text {
+    margin: 0 30px;
+  }
+
+  /*section7 css*/
+  .logosection_container {
+    max-width: 335px;
+    margin: auto;
+    margin-bottom: 60px;
+  }
+  .logosection {
+    width: 100%;
+  }
+  .logo1 {
+    margin-right: 38px;
+    width: 113px;
+    margin-left: 30px;
+  }
+  .logo2 {
+    margin-right: 41px;
+    width: 62px;
+  }
+  .logo3 {
+    width: 45px;
+    margin-right: 0;
+  }
+
+  /*section8 css*/
+  .assistance_container {
+    margin-bottom: 20px;
+  }
+  .assistance {
+    height: 685px;
+    width: 100%;
+  }
+  .assistance_box1 {
+    top: 158px;
+  }
+  .assistance_box1layout {
+    margin: 280px 86px 50px 50px;
+    padding-left: 39px;
+    width: 240px;
+  }
+  .assistance_text1 {
+    font-size: 21px;
+  }
+  .assistance_button1 {
+    margin: 29px 10px 0 0;
+  }
+  .assistance_box2 {
+    left: 20px;
+    right: 20px;
+    bottom: 363px;
+  }
+  .assistance_box2layout {
+    margin: 25px 0 21px 30px;
+    padding-left: 30px;
+    width: 257px;
+  }
+  .assistance_block {
+    display: inline;
+  }
+  .assistance_logo {
+    top: 279px;
+    right: -11px;
+  }
+  .assistance_logoimage {
+    height: 128px;
+    width: 305px;
+  }
+  .assistance_button2 {
+    margin: 30px 7px 40px 0;
+  }
+
+  /*footer css */
+  .footer_container {
+    max-width: 335px;
+    margin: auto;
+  }
+  .footer {
+    height: 680px;
+    width: 100%;
+  }
+
+  .footer_logo {
+    margin-top: 40px;
+    width: 278px;
+  }
+  .logo {
+    width: 24px;
+  }
+  .footer1 {
+    display: block;
+  }
+  .icons {
+    margin-top: 40px;
+  }
+  .footer2 {
+    height: 330px;
+    margin-top: 20px;
+  }
+  .footer2_list {
+    height: 150px;
+    position: absolute;
+  }
+  .footer2_list ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .footer_list {
+    padding-right: 69px;
+    margin-top: 24px;
+  }
+  .footer_right {
+    left: 0;
+    top: 190px;
+    width: 276px;
+    text-align: justify;
+    font-size: 15px;
+  }
+  .footer2_belowlist {
+    position: absolute;
+    top: 290px;
+    margin-right: 12px;
+  }
+  .last {
+    position: relative;
+    margin: 0;
+  }
+  .last_ul {
+    position: absolute;
+    top: 64px;
+  }
+  .list_last {
+    padding-right: 23px;
+  }
+  .last_right {
+    position: absolute;
+    top: 30px;
+  }
+}
